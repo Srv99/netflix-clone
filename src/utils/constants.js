@@ -4,7 +4,16 @@ const NETFLIX_LOGO =
 const NETFLIX_LOGIN_BACKGROUND =
   "https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/85eb5b91-25ed-4965-ace9-ba8e4a0ead8d/IN-en-20230828-popsignuptwoweeks-perspective_alpha_website_large.jpg";
 
-const NETFLIX_PROFILE_ICON =
+const USER_AVATAR =
   "https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdpkabKqQAxyWzo6QW_ZnPz1IZLqlmNfK-t4L1VIeV1DY00JhLo_LMVFp936keDxj-V5UELAVJrU--iUUY2MaDxQSSO-0qw.png?r=e6e";
 
-export { NETFLIX_LOGO, NETFLIX_LOGIN_BACKGROUND, NETFLIX_PROFILE_ICON };
+const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MzM0MTY1MThjODZlYjVhMTU0YTc2NjhjM2NmYWIyOCIsInN1YiI6IjY0ZjZjMzM1ZTBjYTdmMDBhZTNiOGQwMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.7-Y6lhsKFH9stsdmvCDD8uvcJZNmzqB3DhYIAhHephY",
+  },
+};
+
+export { NETFLIX_LOGO, NETFLIX_LOGIN_BACKGROUND, USER_AVATAR, API_OPTIONS };

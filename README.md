@@ -9,6 +9,15 @@
 - useRef hook
 - Firebase setup
 - Deployed firebase
+- Create Signup user account
+- Implement Sign In user api
+- Created Redux store with userSlice
+- Implemented Sign out
+- Update profile
+- Bug fix:
+  - Sign up username and profile picture
+  - If user is logged in stop the user to reach to browse page and vice versa
+- Unsubscribed to the onAuthStateChanged call back
 
 # Features
 
