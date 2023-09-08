@@ -16,4 +16,18 @@ const API_OPTIONS = {
   },
 };
 
-export { NETFLIX_LOGO, NETFLIX_LOGIN_BACKGROUND, USER_AVATAR, API_OPTIONS };
+const MOVIE_VIDEO_DATA_PREFIX = "https://api.themoviedb.org/3/movie/";
+const MOVIE_VIDEO_DATA_SUFFIX = "/videos";
+
+const NOW_PLAYING_MOVIES =
+  "https://api.themoviedb.org/3/movie/now_playing?page=1";
+
+export {
+  NETFLIX_LOGO,
+  NETFLIX_LOGIN_BACKGROUND,
+  USER_AVATAR,
+  API_OPTIONS,
+  NOW_PLAYING_MOVIES,
+  MOVIE_VIDEO_DATA_PREFIX,
+  MOVIE_VIDEO_DATA_SUFFIX,
+};
