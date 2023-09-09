@@ -19,8 +19,15 @@ const API_OPTIONS = {
 const MOVIE_VIDEO_DATA_PREFIX = "https://api.themoviedb.org/3/movie/";
 const MOVIE_VIDEO_DATA_SUFFIX = "/videos";
 
-const NOW_PLAYING_MOVIES =
-  "https://api.themoviedb.org/3/movie/now_playing?page=1";
+const NOW_PLAYING_MOVIES = "https://api.themoviedb.org/3/movie/now_playing";
+
+const POPULAR_MOVIES = "https://api.themoviedb.org/3/movie/popular";
+
+const TOP_RATED_MOVIES = "https://api.themoviedb.org/3/movie/top_rated";
+
+const UPCOMING_MOVIES = "https://api.themoviedb.org/3/movie/upcoming";
+
+const CARD_CDN = "https://image.tmdb.org/t/p/w500";
 
 export {
   NETFLIX_LOGO,
@@ -28,6 +35,10 @@ export {
   USER_AVATAR,
   API_OPTIONS,
   NOW_PLAYING_MOVIES,
+  POPULAR_MOVIES,
+  TOP_RATED_MOVIES,
+  UPCOMING_MOVIES,
   MOVIE_VIDEO_DATA_PREFIX,
   MOVIE_VIDEO_DATA_SUFFIX,
+  CARD_CDN,
 };

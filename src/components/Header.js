@@ -47,7 +47,7 @@ const Header = () => {
       {user && (
         <div className="flex p-2">
           <img
-            className="h-12 w-12 opacity-80"
+            className="h-12 w-12 opacity-80 rounded-full"
             src={user?.photoURL ? user?.photoURL : USER_AVATAR}
             alt="Profile Icon"
           />
