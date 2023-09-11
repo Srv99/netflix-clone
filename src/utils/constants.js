@@ -35,6 +35,11 @@ const SUPPORTED_LANGUAGES = [
   { identifier: "spanish", language: "Spanish" },
 ];
 
+const OPEN_AI_KEY = "XXXXXXXXXXXXXXXX";
+
+const SEARCH_MOVIES_API = "https://api.themoviedb.org/3/search/movie?query=";
+const SEARCH_MOVIES_API_SUFFIX = "&include_adult=false&language=en-US&page=1";
+
 export {
   NETFLIX_LOGO,
   NETFLIX_LOGIN_BACKGROUND,
@@ -48,4 +53,7 @@ export {
   MOVIE_VIDEO_DATA_SUFFIX,
   CARD_CDN,
   SUPPORTED_LANGUAGES,
+  OPEN_AI_KEY,
+  SEARCH_MOVIES_API,
+  SEARCH_MOVIES_API_SUFFIX,
 };
