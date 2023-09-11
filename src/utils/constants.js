@@ -29,6 +29,12 @@ const UPCOMING_MOVIES = "https://api.themoviedb.org/3/movie/upcoming";
 
 const CARD_CDN = "https://image.tmdb.org/t/p/w500";
 
+const SUPPORTED_LANGUAGES = [
+  { identifier: "en", language: "English" },
+  { identifier: "hindi", language: "Hindi" },
+  { identifier: "spanish", language: "Spanish" },
+];
+
 export {
   NETFLIX_LOGO,
   NETFLIX_LOGIN_BACKGROUND,
@@ -41,4 +47,5 @@ export {
   MOVIE_VIDEO_DATA_PREFIX,
   MOVIE_VIDEO_DATA_SUFFIX,
   CARD_CDN,
+  SUPPORTED_LANGUAGES,
 };
