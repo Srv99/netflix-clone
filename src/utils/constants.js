@@ -11,8 +11,7 @@ const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MzM0MTY1MThjODZlYjVhMTU0YTc2NjhjM2NmYWIyOCIsInN1YiI6IjY0ZjZjMzM1ZTBjYTdmMDBhZTNiOGQwMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.7-Y6lhsKFH9stsdmvCDD8uvcJZNmzqB3DhYIAhHephY",
+    Authorization: "Bearer " + process.env.TMDB_KEY,
   },
 };
 
@@ -35,7 +34,7 @@ const SUPPORTED_LANGUAGES = [
   { identifier: "spanish", language: "Spanish" },
 ];
 
-const OPEN_AI_KEY = "XXXXXXXXXXXXXXXX";
+const OPEN_AI_KEY = process.env.OPEN_AI_API_KEY;
 
 const SEARCH_MOVIES_API = "https://api.themoviedb.org/3/search/movie?query=";
 const SEARCH_MOVIES_API_SUFFIX = "&include_adult=false&language=en-US&page=1";
