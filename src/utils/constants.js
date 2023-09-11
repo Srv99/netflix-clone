@@ -11,7 +11,7 @@ const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization: "Bearer " + process.env.TMDB_KEY,
+    Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
   },
 };
 
@@ -34,7 +34,7 @@ const SUPPORTED_LANGUAGES = [
   { identifier: "spanish", language: "Spanish" },
 ];
 
-const OPEN_AI_KEY = process.env.OPEN_AI_API_KEY;
+const OPEN_AI_KEY = process.env.REACT_APP_OPEN_AI_API_KEY;
 
 const SEARCH_MOVIES_API = "https://api.themoviedb.org/3/search/movie?query=";
 const SEARCH_MOVIES_API_SUFFIX = "&include_adult=false&language=en-US&page=1";
